@@ -1,5 +1,5 @@
 import { init } from './lib/init.js'
+import { logo } from './lib/logo.js'
 
-console.log('Welcome to personnel manager')
-
+console.log(logo)
 init()
