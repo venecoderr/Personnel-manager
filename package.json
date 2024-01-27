@@ -7,9 +7,16 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.3.2",
+    "inquirer": "^9.2.12",
+    "mysql2": "^3.7.1"
+  }
 }
